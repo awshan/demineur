@@ -1,16 +1,20 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "perso.h"
+#include "Perso.h"
+#include "Damier.h"
 
 using namespace std;
 
 int main()
 {
-   Personnage perso1(1,50,"épée",10);
+   // Personnage perso1(1,50,"épée",10);
+   // cout << perso1.get_vie() << endl;
+   int largeur = 5;
+   Damier damier(largeur);
 
-   cout << perso1.get_vie() << endl;
-   
-   
+   std::cout << "The content of the board:" << std::endl;
+   damier.arrayToString();
+
    return 0;
 }
