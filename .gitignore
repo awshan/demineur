@@ -1,2 +1,3 @@
 # Ignorer les fichiers exécutables
 *.exe
+.vscode/
