@@ -12,7 +12,7 @@ private:
 
 public:
     Damier(int largeur,  int nombreBombes);
-    void placerBombesAleatoirement();
+    void randomBombs();
     void arrayToString();
 };
 

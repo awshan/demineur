@@ -8,12 +8,12 @@ using namespace std;
 
 int main()
 {
-   int largeur = 5;
-   int nombreBombes = 10;
+   int largeur = 20;
+   int nombreBombes = 100;
    Damier damier(largeur, nombreBombes);
 
    std::cout << "The content of the board:" << std::endl;
-   damier.placerBombesAleatoirement();
+   damier.randomBombs();
    damier.arrayToString();
 
    return 0;
